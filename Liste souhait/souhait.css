@@ -1,0 +1,56 @@
+µ{
+    font-family: 'Inter';
+}
+form{
+    position: relative;
+    left: 100px;
+    top: 90px;
+    align-items: center;
+}
+.texte p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.texte i{
+    padding-left: 435px;
+}
+h2{
+    font-size: 50px;
+}
+.form-group input{
+    width: 82%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 0px;
+}
+.form-group{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.form-group::placeholder{
+    color: #C5C5C5;
+}
+.pass{
+    margin-top: 30px;
+}
+button{
+    margin-top: 30px;
+    height: 45px;
+    width: 110px;
+    font-weight: bold;
+    border-radius: none;
+}
+#blanc{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.item{
+    margin-top: 30px;
+}
+.item a{
+    color: black;
+}
+.item p{
+    color: #C5C5C5;
+}

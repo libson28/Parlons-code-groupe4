@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: #40464e;
+  
+    hr{
+        font-size: 1PX
+        /* color: bisque; */
+    }
+    
+}
+.paragraphe{
+    width: 70%;
+    font-weight: 100;
+    color: #505459;
+    margin: 0 auto;
+    text-align: center;
+
+}

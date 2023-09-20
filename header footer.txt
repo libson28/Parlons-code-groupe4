@@ -1,0 +1,37 @@
+css
+
+ .nav{
+            display: flex;
+            margin-left: 800px;
+            margin-top: -40px;
+        }
+        a {
+            text-decoration: none;
+            padding: 0 15px;
+            font-size: 19px;
+            color: rgb(118, 118, 118);
+        }
+
+        a:hover{
+            color: #44A8B3;
+        }
+
+-----------------------------------------------------------------------------------------
+html
+
+<header>
+        <div class="entete">
+            <div class="logo">
+                <img src="logo.jpg" alt="">
+            </div>
+            <div class="nav">
+                <ul>
+                    <a href="">Formations</a>
+                    <a href="">Ateliers</a>
+                    <a href="">Podcasts</a>
+                    <a href="">Livres</a>
+                    <a href="">Se connecter</a>
+                </ul>
+            </div>
+        </div>
+    </header>

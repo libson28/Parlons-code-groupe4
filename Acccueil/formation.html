@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <title>Parlons Code</title>
+    <style>
+        body{
+            background-color: #F9F9F9;
+        }
+        .nav{
+            display: flex;
+            margin-left: 800px;
+            margin-top: -40px;
+        }
+        a {
+            text-decoration: none;
+            padding: 0 15px;
+            font-size: 19px;
+            color: rgb(118, 118, 118);
+        }
+
+        a:hover{
+            color: #44A8B3;
+        }
+
+        .entete{
+            background-color: #222222;
+        }
+
+        .banniere{
+            width: 100%;
+            height: auto;
+            margin-top: -1px;
+            
+        }
+        .imgText{
+            display: flex;
+        }
+
+    h1{
+        margin-left: -970px;
+        color: rgb(255, 255, 255);
+        font-size: 70px;
+        margin-top: 15px;
+    }
+
+    p{
+        color: white;
+        margin-left: -1150px;
+        margin-top: 110px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+    }
+
+    .bouton{
+        margin-left: -860px;
+        margin-top: 160px;
+    }
+
+    button{
+        padding: 4px 20px;
+        width: 95%;
+        background-color: #32438A;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 12px;
+        font-size: 15px;
+    }
+    button button:hover{
+        background-color: #32438a;
+    }
+
+    .fa-chevron-down{
+        margin-left: 5px;
+    }
+
+    .corps1{
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        margin-top: 35px;
+    }
+
+    .bloc1{
+        background-color: #ffffff;
+        height: 565px;
+        width: 380px;
+        margin-left: 100px;
+        border: 1px solid #d2d2d2;
+    }
+    .bloc2{
+        background-color: #ffffff;
+        height: 480px;
+        width: 380px;
+        margin-left: 168px;
+        border: 1px solid #d2d2d2;
+    }
+    .bloc3{
+        background-color: #ffffff;
+        height: 460px;
+        width: 380px;
+        margin-left: 235px;
+        border: 1px solid #d2d2d2;
+    }
+
+    .symph1{
+        margin-left: 135px;
+        margin-top: 5px;
+    }
+
+    .click{
+        color: #3f55af;
+        font-size: 20px;
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+        margin-top: 30px;
+        margin-left: 5px;
+
+    }
+    .desc{
+        color: #858585;
+    }
+    h6{
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+        padding: 0 8px;
+    }
+    .t2{
+        font-size: 19px;
+        margin-top: 15px;
+        color: #858585;
+    }
+    .bordure{
+        background-color: #44A8B3;
+        font-size: 15px;
+        color: #fff;
+        padding: 2px 10px;
+    }
+
+    .lastText{
+        font-family: Gilroy,system-ui,-apple-system,BlinkMacSystemFont,".SFNSText-Regular","Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",sans-serif;
+        color: #5e5e5e;
+        font-size: 17.5px;
+        font-weight: 400;
+    }
+
+     .python{
+        margin-left: 115px;
+        margin-top: 5px;
+    }
+    .symph2{
+        margin-left: 120px;
+        margin-top: 5px;
+    }
+
+    .corps2{
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        margin-top: 35px;
+    }
+
+    .bloc4{
+        background-color: #ffffff;
+        height: 480px;
+        width: 380px;
+        margin-left: 100px;
+        border: 1px solid #d2d2d2;
+    }
+    .bloc5{
+        background-color: #ffffff;
+        height: 480px;
+        width: 380px;
+        margin-left: 168px;
+        border: 1px solid #d2d2d2;
+    }
+    .bloc6{
+        background-color: #ffffff;
+        height: 480px;
+        width: 380px;
+        margin-left: 235px;
+        border: 1px solid #d2d2d2;
+    }
+
+    h3{
+        color: #000000;
+        padding: 0;
+    }
+
+    h5{
+        margin-left: 475px;
+        margin-top: 70px;
+        font-size: 35px;
+        font-weight: 350;
+        font-family: Gilroy,system-ui,-apple-system,BlinkMacSystemFont,".SFNSText-Regular","Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",sans-serif;
+    }
+
+    .temoigne1{
+        margin-left: 215px;
+        margin-top: 50px;
+    }
+    .desc2{
+        color: #000000;
+    }
+    .temoin{
+        width: 90%;
+        margin-left: 80px;
+        margin-top: 25px;
+    }
+   
+    .travel{
+        width: 30%;
+        padding: 10px 10px;
+        font-size: 18px;
+        background-color: transparent;
+        border: 1px solid #32438A;
+        color: #1476d8;
+        margin-left: 540px;
+    }
+    .travel:hover{
+        background-color: #09279f;
+        color: #fff;
+    }
+    .pieds{
+        display: flex;
+        background-color: #F5F8FA;    
+        width: 1455px;
+        height: 400px;
+        margin-top: 40px;
+        box-shadow: #44A8B3;
+    }
+
+    h4{
+        font-size: 25px;
+        margin-top: 12px;
+        margin-left: 8px;
+    }
+    .pied1{
+        margin-left: 150px;
+        padding-top: 12px ;
+    }
+    .facebook-icon{
+        margin-left: -6px;
+    }
+    .twitter-icon{
+        margin-left: -25px;
+    }
+    .youtube-icon{
+        margin-left: -25px;
+    }
+    .github-icon{
+        margin-left: -25px;
+    }
+    li{
+        list-style: none;
+    }
+
+    .txt2{
+        margin-left: 45px;
+    }
+    .txt3{
+        margin-left: 45px;
+    }
+
+    .pied2{
+        margin-left: 175px;
+    }
+    .pied3{
+        margin-left: 20px;
+    }
+
+    .cloche{
+        font-size: 17.5px;
+        font-weight: 400;
+        margin-top: -175px;
+        margin-left: 150px;
+    }
+
+    .form{
+        display: flex;
+    }
+
+    .envoyer{
+        width: 15%;
+        height: 35px;
+        padding: 2px 10px;
+        font-size: 15px;
+        background-color: #32438a;
+        border: 1px solid #32438A;
+        color: #fff;
+        margin-left: 55px;
+        margin-top: -4px;
+    }
+
+    input{
+        width: 470px;
+        height: 34px;
+        margin-left: 152px;
+    }
+
+    .copyri{
+        margin-top: 60px;
+        margin-left: 370px;
+        color: #6e6e6e;
+    }
+    </style>
+</head>
+<body>
+     <!-- navbar -->
+
+    <header>
+        <div class="entete">
+            <div class="logo">
+                <img src="logo.jpg" alt="">
+            </div>
+            <div class="nav">
+                <ul>
+                    <a href="">Formations</a>
+                    <a href="/page_atelier/.atelier.html">Ateliers</a>
+                    <a href="/Podcasts/podcasts.html">Podcasts</a>
+                    <a href="">Livres</a>
+                    <a href="/Se connecter/Seconnecter.html">Se connecter</a>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- la banniere -->
+
+    <div class="banniere">
+        <div class="imgText">
+            <img class="banniere" src="Banniere.png" alt="">
+            <div class="titre">
+              <h1>Parlons Code</h1>
+            </div>
+            <div class="text">
+                <p class="desc">Apprenez à coder en Python, Django, Symphony, Java Swing, etc par la pratique.</p>
+            </div>
+            <div class="bouton">
+                <button>Choisir une Formation<i class="fa-solid fa-chevron-down"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Début du corps -->
+    <div class="corps1">
+        <div class="bloc1">
+            <img class="symph1" src="symphony.png" alt="">
+            <h2> <a class="click"  href="">Devenez un pro Symphony pro 6</a></h2>
+            <h6 class="t2"><i class="fa-solid fa-list-check" style="color: #858585;"></i>&nbsp; 129 Vidéos <span class="bordure">disponible en accés prématuré</span></h6>
+            <h6 class="lastText">Même si la documentation du framework Symfony est excellente et qu’il existe également de nombreux tutoriels, livres et
+            articles sur le sujet, j’ai trouvé que très peu de ressources montraient comment utiliser Symfony pour créer des
+            applications exploitables dans le monde réel. Mon objectif avec cette formation est de combler cette lacune et du même
+            coup étaler toute la puissance du framework Symfony en créant des clones de plusieurs applications existantes: Amazon,
+            Indeed, etc.
+            </h6>
+            <button class="send"><i class="fa-solid fa-play" style="color: #ffffff;"></i>&nbsp; Démarrer la formation</button>
+        </div>
+        <div class="bloc2">
+            <img class="python" src="python.png" alt="">
+            <h2> <a class="click" href="">MasterClass Python</a></h2>
+            <h6 class="t2"><i class="fa-solid fa-list-check" style="color: #858585;"></i>&nbsp; 139 Vidéos <span
+                    class="bordure">disponible en accés prématuré</span></h6>
+            <h6 class="lastText">Python est un langage très simple d’apprentissage et vous pouvez l’utiliser pour créer différents types d'applications:
+            des applications Web, des applications de bureau, des jeux vidéos, voir même un moteur de recherche! Grâce à cette
+            MasterClass, vous deviendrez un(e) développeur(se) Python aguerri(e) tout en vous amusant à créer une série de projets
+            pratiques et ludiques.
+            </h6>
+            <button class="send"><i class="fa-solid fa-play" style="color: #ffffff;"></i>&nbsp; Démarrer la formation</button>
+        </div>
+        <div class="bloc3">
+            <img class="symph2" src="symphony.png" alt="">
+            <h2> <a class="click" href="">MasterClass Python</a></h2>
+            <h6 class="t2"><i class="fa-solid fa-list-check" style="color: #858585;"></i>&nbsp; 121 Vidéos</h6>
+            <h6 class="lastText">Symfony a la mauvaise réputation d'être un framework difficile d'apprentissage mais il s'agit en effet d'une idée
+            désuète. Symfony est en réalité un framework simple à appréhender, ultra performant et regroupant un ensemble de
+            composants basés sur d'excellentes pratiques de développement. Donnez-moi une semaine et je vous le prouverai :). Ready?
+            </h6>
+            <button class="send"><i class="fa-solid fa-play" style="color: #ffffff;"></i>&nbsp; Démarrer la formation</button>
+
+        </div>
+    </div>
+
+    <div class="corps2">
+        <div class="bloc4">
+            <img class="symph1" src="symphony.png" alt="">
+            <h2> <a class="click" href="">Symfony 4 en une semaine!</a></h2>
+            <h6 class="t2"><i class="fa-solid fa-list-check" style="color: #858585;"></i>&nbsp; 37 Vidéos.&nbsp; <i class="fa-solid fa-book" style="color: #7d7d7d;"></i>&nbsp;1 Challenge</h6>
+            <h6 class="lastText">Symfony a la mauvaise réputation d'être un framework difficile d'apprentissage mais il s'agit en effet d'une idée
+            désuète. Symfony est en réalité un framework simple à appréhender, ultra performant et regroupant un ensemble de
+            composants basés sur d'excellentes pratiques de développement. Donnez-moi une semaine et je vous le prouverai :). Ready?
+            </h6>
+            <button class="send"><i class="fa-solid fa-play" style="color: #ffffff;"></i>&nbsp; Démarrer la formation</button>
+        </div>
+        <div class="bloc5">
+            <img class="python" src="python.png" alt="">
+            <h2> <a class="click" href="">Devenez un pro Symfony 3/4</a></h2>
+            <h6 class="t2"><i class="fa-solid fa-list-check" style="color: #858585;"></i>&nbsp; 161 Vidéos. &nbsp;<i class="fa-solid fa-book" style="color: #7d7d7d;"></i>&nbsp; 37 Challenges</h6>
+            <h6 class="lastText">Symfony a une mauvaise réputation selon laquelle il serait difficile d'apprentissage mais croyez-moi il s'agit en effet
+            d'une idée désuète. Symfony est en réalité un framework simple à appréhender, ultra performant et regroupant un ensemble
+            de composants basés sur d'excellentes pratiques de développement. Je ferai de vous un "pro" Symfony 3 et 4. Ready?
+            </h6>
+            <button class="send"><i class="fa-solid fa-play" style="color: #ffffff;"></i>&nbsp; Démarrer la formation</button>
+        </div>
+        <div class="bloc6">
+            <img class="symph2" src="swing.png" alt="">
+            <h2> <a class="click" href="">Devenez Swag avec Swing</a></h2>
+            <h6 class="t2"><i class="fa-solid fa-list-check" style="color: #858585;"></i>&nbsp; 100 Vidéos &nbsp;<i class="fa-solid fa-book" style="color: #7d7d7d;"></i>&nbsp; 65 Challenges</h6>
+            <h6 class="lastText">Écrire des programmes Java qui vont s’exécuter en console, c’est bien. Mais très souvent en tant que développeur (et
+            surtout pour les utilisateurs finaux), on en veut un peu plus! Dans cette formation, je vous invite à découvrir comment
+            créer des applications Java disposant d’interfaces graphiques fonctionnelles et professionnelles en utilisant Java
+            Swing.
+            </h6>
+            <button class="send"><i class="fa-solid fa-play" style="color: #ffffff;"></i>&nbsp; Démarrer la formation</button>
+        
+        </div>
+    </div>
+        <h5>Voici ce que disent vos confrères...</h5>
+    <img class="temoin" src="temoigne.jpg" alt="">
+    <button class="travel">Pas encore sûr? Découvrez plus de témoignages></button>
+
+    <footer>
+        <div class="pieds">
+            <div class="pied1">
+                <h4 class="txt1">Parlons Codes</h4>
+                <h6 class="demo">Apprenez à programmer par la pratique!</h6>
+                <a href="https://facebook.com" class="facebook-icon">
+                    <i class="fab fa-facebook-f" style="color: #ffffff; background-color: #6e6e6e; padding: 4px 8px;" ></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="twitter-icon">
+                    <i class="fab fa-twitter" style="color: #ffffff;background-color: #5e5e5e; padding: 4px 8px;"></i>
+                </a>
+                <a href="https://www.youtube.com" target="_blank" class="youtube-icon">
+                    <i class="fab fa-youtube" style="color: #ffffff;background-color: #5e5e5e; padding: 4px 8px;"></i>
+                </a>
+                <a href="https://github.com/votre-utilisateur" target="_blank" class="github-icon">
+                    <i class="fab fa-github" style="color: #ffffff;background-color: #5e5e5e; padding: 4px 8px;"></i> 
+                </a>
+            </div>
+
+            <div class="pied2">
+                <h4 class="txt2">Liens utiles</h4>
+                <ul>
+                    <li><a href="" class="util">Formations</a></li>
+                    <li><a href="" class="util">Podcasts</a></li>
+                    <li><a href="" class="util">Livres & Ebooks</a></li>
+                    <li><a href="" class="util">Support technique</a></li>
+                    
+                </ul>
+                
+            </div>
+            <div class="pied3">
+                <h4 class="txt3">Autres</h4>
+                <ul>
+                    <li><a href="" class="util">A propos</a></li>
+                    <li><a href="" class="util">Contact</a></li>
+                    <li><a href="" class="util">Politique de confidentialité</a></li>
+                    <li><a href="" class="util">Conditons d'utilisation</a></li>
+                </ul>
+            </div>
+
+            </div>
+             <h5 class="cloche"><i class="fa-regular fa-bell" style="color: #5c5c5c;"></i>&nbsp; Recevez toute l'actualité du site dans votre boîte mail!</h5>
+             <div class="form">
+                <input type="text" placeholder="Veuiller entrer votre adresse email">
+                <button class="envoyer"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i>S'abonner à la newsletter</button>
+             </div>
+             
+        </div>
+        <div class="copyri">
+            Conçu avec<i class="fa-solid fa-heart" style="color: #ff7070;"></i>et beaucoup de<i class="fa-solid fa-mug-saucer" style="color: #8c8c8c;"></i>sur Jupiter ·<i class="fa-regular fa-copyright" style="color: #757575;"></i>Copyright 2017 ‐ 2023. Tous Droits Réservés.
+        </div>
+       
+    </footer>
+    
+</body>
+</html>.

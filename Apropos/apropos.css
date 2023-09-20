@@ -1,0 +1,10 @@
+*{
+    font-family: 'poppins';
+}
+button{
+    color: brown;
+
+}
+::placeholder{
+    color: white;
+}

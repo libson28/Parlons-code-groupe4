@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auteur</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="speak.css">
+
+</head>
+<body>
+    <header class="py-3 mb-3 border-bottom bg-dark">
+        <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 2fr;">
+          <div class="mr-5 d-flex">
+            <a href="file:///c%3A/Users/Simplon/Parlons-code-groupe4/speak%20auteur/speack%20.html#" class="d-flex align-items-center col-lg-4 mb-2 mb-lg-0 link-body-emphasis text-decoration-none " data-bs-toggle="dropdown" aria-expanded="false">
+              <img style="margin-left: 400px; width: 48px; height: 48px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABDCAYAAABjoACgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABSRJREFUeNrsXP11mzAQx375P+oEYQOzQdig3iDOBHUnKBs4mYB0grgTQCYwmcBkAuMJXCk9xYqK0DfgoHvvHnl20En3ofsd5hRFgQIFChQoUKBBaOZz8NPphPAlwZxivsEcY6aftVGDuYLrK/xdzWaz2lB+DLIILxjZSHALlU3kvWEuQX5zMQbAi17iyy0oPXE0bAXKeJQZA5T+w5P8Fyx/O7owwotOMeeYDyf/VBB5gjkUPcg/wFrToZWOMK8w70/DEFF2AlwMNIc96AD1tgWBsDWEOYoC0dz1iPlBN1+YGCDHl5WDSdfAlJDDPVtlT2cVFQPb0hM2wL3ODVcGQnQnWsKCCaqp8QRLDeREk7kNvSdPVUQDe3sMqCnRlB97dx08wZ3CvrgBNOQq16w1c80e7kGO5rCENcnmsOsjB5wEXxF49rsNpjFenUA9kLRsO+yW9AJ/lyzsJAkPXzYduYd49098zxMHS1PGo6mn3suisQNm32FudTA85syn9yMRIhHAwo1CxMhoxyINmEPe8n859z9riezUUhci5IV8GiCVGQCUfvCEvzM2GuCzA0QGVXymKN+XAVKfBlgKhGbwfdID9iZenTDyEsY5dPKErQEywbhauW+uKVcGE/uoC8gc3rclvN0SVFOBAxSaKCT1OD9vMPS6A+ppC7ekHPDAraO6xATe/tLQkRMDjCECPhlhhFWxlhPOXUhk4NxiKs8eTCCsCwOkI4sAG7r1NG7adwSUpuH3BajsLQIUYVt4OqquK2cRUFFMPkFdV33mAJFVjxfq/S7qgKPt2HOHXhAiwHMEiFBDM+H9v7FFWC4jYBEiwG8EJIKC5GIjwPaBXMeva4kPAyCJB0wxB4iiADk1QAfEbEIN0J4HVGH53ML7CdUTrgE+6cA0ClQNIFLw24V7v4ta4M0mDziJgAnv/71FwEIiHAUDKOvMSwQsggEGyAHMOzuXGgHWvwl0vC7vPQewguNo2lR7iwB4sywKBtDfhjp0pxUBcVcBoiJkqsWYimPaGOD1C3h/6mic1yEM0ITtp58IuBF8XgUD/KcLVd05jYCboP8BcgB5J/MrRICLt5kZXfRmgCZAUKUosDNAR7NBFQyglgdkDRuyl3MThzVADUwmeozOxxLw8siEr6NzSxNy4JkVI7fmCqfKYwTQNZWmBkAWNQARqtydyNzDexDtVLyL1B97b0H21vScCcNaYKn7SMI0AkTbD1n4H1h406JI1FL8LMAjj5zHkpbWGhIc4QeIuFXU3iROxvgdtTRLw30xF1E0yl5anKDpSKy6lIBejBDCpqu9B9p0aEtozO57TGvnzvIogJw/DoDrBfvoEeO+X8G9e8t2qA2sBcnQlGCMjQ1EKyQG4JW+9nxuw6dDMkAm4pSQez6forX/WKWB0cQArd7L/Q/xjucBDupIucX3fWDHM9+QZ9K8PZMYQNSU/S36d2DH3cAw9AGu6wHn8JF7MB8EhdrMpQGaKPQBdEFRpGOAK4MS3VT5ZXQ+CozH4uzY9HixxGF00fqDHoMmqlrj6Hy0mskjCiTSpain7MqjN5QASUtNSLfloCs9lyE2UDo9v8IIUjI1yPfIX1+xUHhmmBytTpDqmI/q6Vx7HpY6kk+hrUmyz3wbIO/rp0nJvLKe5hBrwl0jAxQKnpZ5PR2kY2vgomE/xPupTEEoi8zChQH2gH3XY3gZFxa/A0YjmE8CunluMUihDUOZZzcun4s4NwLAvGak8xu9DgMFChQo0HD0V4ABAKiCSwHftnDCAAAAAElFTkSuQmCC" alt="">
+            </a>
+           
+            
+          </div>
+    
+            <div class="flex-shrink-0 dropdown">
+                <a href="file:///c%3A/Users/Simplon/Parlons-code-groupe4/speak%20auteur/speack%20.html#" class="d-flex align-items-center col-lg-4 mb-2 mb-lg-0 link-body-emphasis text-decoration-none dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="false">
+                    <img style="margin-left: 550px; width: 48px; height: 48px;" src="https://icon-library.com/images/white-hamburger-menu-icon/white-hamburger-menu-icon-24.jpg" alt="">
+                  </a>
+              <ul class="dropdown-menu text-small shadow">
+                <li><a class="dropdown-item" href="#">New project...</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+    
+            </div>
+          </div>
+        </div>
+      </header>
+     <div class="grid">
+
+            <div class="left" >
+                    <div class="mb-3 mx-5">
+                        <h1>Envoyer un e-mail à l'auteur</h1>
+                        <p>You can use this page to email Honoré Hounwanou about Premiers pas avec Python.</p>
+                        <label for="exampleFormControlInput1" class="form-label">YOUR EMAIL ADDRESS</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" >
+                        <p>Please include an email address so the author can respond to your query</p>
+                    </div>
+                    <div class="mb-3 mx-5">
+                        <label for="exampleFormControlTextarea1" class="form-label">* ENTREZ CI-DESSOUS VOTRE MESSAGE POUR L'AUTEUR</label>
+                        <textarea class="form-control  w-80" id="exampleFormControlTextarea1" rows="6"></textarea>
+                        <p>This message will be sent to Honoré Hounwanou</p>
+                        <p>This site is protected by reCAPTCHA and the Google  Privacy Policy and  Terms of Service apply.</p>
+                        <button type="button" class="btn btn-primary btn-lg">    Email Honoré Hounwanou</button>
+                    </div>
+                </div>
+                <div class="right mx-5">
+                    <div class="card bg-light " style="width: 22rem; ">
+                        <div class="card-body">
+                          <h2 class="card-title">À propos du livre</h2>
+                          <p class="card-text">Très souvent lorsque nous nous lançons dans l’apprentissage d’un nouveau langage de programmation,
+                             nous commençons par une phase théorique dans laquelle l’on essaie un tant soit peu de comprendre le principe de 
+                             fonctionnement dudit langage et tout le jargon informatique associé. Ce n’est qu’après cela, que nous pensons généralement 
+                             à <strong>réellement pratiquer</strong>.</p>
+
+                                <p>Mais vu d’un autre angle et étant donné que l’objectif final consiste habituellement à réaliser plus tard 
+                                    quelques projets avec ce fameux langage, je me suis dit qu’il pourrait être également intéressant, de faire pourquoi pas, d’une pierre deux coups.
+                                    <strong>C’est-à-dire apprendre, mais cette fois-ci en pratiquant!</strong></p>
+                                    <p>Ainsi, grâce à ce livre, nous apprendrons à programmer en Python en nous amusant à créer une série d’applications ludiques. Python est un langage très simple d’apprentissage et vous pourrez
+                                        l’utiliser pour créer par exemple des applications Web, des jeux vidéos, des applications mobiles, voir même un moteur de recherche !</p>
+                                        <p>Histoire de vous donner une idée des différents types d’applications que vous pourrez réaliser avec le langage Python, je vous recommande de visiter la page
+                                         <a href="https://www.python.org/about/success/" class="card-link">Histoires à succès du site officiel de Python</a>— Désolé aux allergiques à la langue de Shakespeare :). Nous commencerons en douceur,
+                                          en abordant les
+                                          notions les plus simples afin de ne perdre personne en chemin. Ce sera ensuite le moment de s’intéresser à des notions beaucoup
+                                          plus avancées comme celles des structures de données (les listes, les tuples, les dictionnaires…), des modules, des fichiers, du concept de programmation
+                                           orientée objet en Python… <br> Hmm sacré programme
+                                           n’est-ce pas ? Alors ready ? Let’s go !</p>
+                                           <h2 class="card-title">À propos de l'auteur</h2>
+                                           <div class="d-flex">
+                                                <img src="https://d39qdlcrvnra4b.cloudfront.net/avatars/330999/small/IMG_5027.PNG?1630460764" alt="" class="rounded-circle">
+                                                <p class="mt-3">Honoré Hounwanou</p>
+                                             </div><br>
+                                            <a href="https://twitter.com/etsmo">@etsmo</a><br>
+                                            <p>Honoré Hounwanou est un développeur, formateur et entrepreneur résidant au Canada.</p>
+                                            <p>Titulaire d'un Master en Télécommunications, il effectue actuellement un Doctorat en Sécurité Informatique à l'Université LAVAL.</p>
+                                            Il a fondé il y a de cela 4 ans, la plateforme d'E-learning <a href="http://teachersdunet.com/">LES TEACHERS DU NET</a> offrant des 
+                                            formations et tutoriels de catégories diverses expliqués de manière simple et chirurgicale.
+                                            <p>Il est Co-fondateur et Directeur du Département Développement & Recherche de la startup <a href="https://paydunya.com/">PAYDUNYA</a> 
+                                             (Solution de paiement en ligne via Téléphone Mobile).</p>
+                                             <p>Il parle couramment le Python, Java, PHP, Ruby, HTML/CSS/JavaScript, C/C++, C#, SQL, Scratch.</p>
+                                          
+                        </div>
+                      </div>
+                </div>
+        </div> 
+        <!-- footer -->
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+            <div class="col mb-3">
+           
+            </div>
+        
+            <div class="col mb-6">
+              <!-- <img src="https://leanpub.com/assets/logos/logo-white-96-67-2x-cbf54f68046da93161c6375a4d74259d.png" alt=""> -->
+              <h5 style="text-decoration: underline ;">Path</h5>
+              <p>There are many paths, but the one you're on right now on Leanpub is:</p>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+              </ul>
+            </div>
+        
+           
+        
+            <div class="col mb-3">
+              <h5>READERS</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+              </ul>
+            </div>
+          </footer>
+
+
+
+
+        <!-- footer -->
+
+</body>
+</html>    

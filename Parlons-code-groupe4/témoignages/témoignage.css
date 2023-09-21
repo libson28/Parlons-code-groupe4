@@ -1,0 +1,145 @@
+*{
+    font-family: poppins;
+}
+
+.nav{
+    display: flex;
+    margin-left: 800px;
+    margin-top: -40px;
+}
+a {
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 19px;
+    color: rgb(118, 118, 118);
+}
+
+a:hover{
+    color: #44A8B3;
+}
+
+.rows{
+   display: flex;
+   justify-content: center;
+
+}
+
+.titre h1,p{
+    text-align: center;
+    margin-right: -30px;
+    color: #28384D;
+    
+}
+#tit{
+    color: lightgray;
+}
+.cart1 img,h2,p{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.cart1 img{
+    position: relative;
+    right: -120px;
+}
+.ligne1{
+    margin: 0 10px 0 0;
+    padding-left: -20px;
+    width:80%;
+    position: relative;
+    right: -150px;
+padding-top: 20px;}
+
+/* debut css footer */
+footer{
+    margin-bottom: 0 ;
+}
+.pieds{
+    display: flex;
+    background-color: #F5F8FA;    
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    padding-top: 30px;
+    box-shadow: #44A8B3;
+}
+footer h4{
+    font-size: 25px;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+.pied1{
+    margin-left: 150px;
+    padding-top: 12px ;
+}
+.pied1 h6{
+    padding-left: 10px;
+}
+.facebook-icon{
+    margin-left: -6px;
+}
+.twitter-icon{
+    margin-left: -25px;
+}
+.youtube-icon{
+    margin-left: -25px;
+}
+.github-icon{
+    margin-left: -25px;
+}
+li{
+    list-style: none;
+}
+.txt2{
+    margin-left: 45px;
+}
+.txt3{
+    margin-left: 45px;
+}
+.pied1 i{
+    margin-left: 25px;
+}
+.pied2{
+    margin-left: 190px;
+}
+.pied2 h4{
+    margin-right: 10px;
+}
+.pied3{
+    margin-left: 20px;
+}
+.txt3 a:hover{
+    text-decoration: underline;
+    color: red !important;
+}
+.cloche{
+    font-size: 17.5px;
+    font-weight: 400;
+    margin-top: -175px;
+    margin-left: 150px;
+}
+.form{
+    display: flex;
+}
+.form i{
+    padding-right: 10px;
+}
+.envoyer{
+    width: 20%;
+    height: 35px;
+    padding: 2px 10px;
+    font-size: 15px;
+    background-color: #32438a;
+    border: 1px solid #32438A;
+    color: #fff;
+    margin-left: 55px;
+    margin-top: -4px;
+}
+.form input{
+    width: 470px;
+    height: 34px;
+    margin-left: 152px;
+}
+/* fin css footer */
+    
+
